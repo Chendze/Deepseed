@@ -33,7 +33,49 @@
 # for i in range(2,7):
 #     print(1)
 
-for i in range(10, 0, -2):
-    print(f"countdown: {i}")
-print("blast off! 🚀")
+# for i in range(10, 0, -2):
+#     print(f"countdown: {i}")
+# print("blast off! 🚀")
+
+# Basic while loop
+# count = 1
+# while count <=5:
+#     print(f"count is: {count}")
+#     count += 1 
+
+# print("Finding the first even number:")
+# for number in range(1, 10):
+#     if number % 2 == 0:
+#         print(f"Found even number: {number}")
+#         break
+#     print(f"{number} is odd")
+
+
+# user_input = ""
+# while user_input != "quit":
+#     user_input = input("Enter 'quit' to exit: ")
+#     if user_input != "quit":
+#         print(f"you entered: {user_input}")
+# print("Goodbye!")
+
+
+# Nested loop
+
+# Multiplication table
+# print("Multiplication Table:")
+# for i in range(1, 4):
+#     for j in range(1, 4):
+#         result = i * j
+#         print(f"{i} * {j} = {result}")
+#     print()
+
+
+print("Multiplication table:")
+for i in range(1, 20):
+    for j in range(1, 20):
+        result = i * j
+        print(f"{i} * {j} = {result}")
+    print()
+    
+       
 
